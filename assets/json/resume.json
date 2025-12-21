@@ -5,7 +5,7 @@
     "image": "",
     "email": "saharad@campus.technion.ac.il",
     "url": "https://saharad1.github.io",
-    "summary": "PhD Candidate at the Technion - Israel Institute of Technology, Haifa, Israel",
+    "summary": "My research focuses on the interaction between reinforcement learning and large language models, with the goal of improving sequential decision making and interpretability in AI systems. I study how LLMs can interpret and assist RL agents, and how RL techniques can support more consistent behavior and effective finetuning of LLMs.",
     "location": {
       "address": "Haifa, Israel",
       "postalCode": "32000",
