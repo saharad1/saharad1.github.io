@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Passionate about the intersection of RL and LLMs. PhD Candidate @ Technion.
+subtitle: RL and LLMs enthusiast. PhD Candidate @ Technion.
 
 profile:
   align: right
