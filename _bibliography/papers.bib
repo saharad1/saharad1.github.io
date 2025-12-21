@@ -1,115 +1,56 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@inproceedings{shin2024towards,
+  abbr={CHI Workshop},
+  title={Towards an evaluation of LLM-generated inspiration by developing and validating inspiration scale},
+  author={Shin, Hyungyu and Choi, Seulgi and Cho, Ji Yong and Admoni, Sahar and Lim, Hyunseung and Kim, Taewan and Hong, Hwajung and Lee, Moontae and Kim, Juho},
+  booktitle={Proceedings of the HEAL: Human-centered Evaluation and Auditing of Language Models CHI Workshop},
+  year={2024},
+  abstract={Researchers seek inspiration during the research process. Large Language Models (LLMs) have the potential to inspire researchers to make progress in their research, especially in the ideation process, but it is challenging to assess this capability. We envision (1) developing a scale—Inspiration scale—that captures key elements of inspiration, (2) evaluating the capability of existing LLMs for inspiring researchers in the research ideation process, and (3) further transforming the developed scale into an auto-assessment rubric for LLMs to align human-perceived and machine-assessed inspiration. In this paper, we develop a list of items for human evaluators by (1) compiling metrics for inspiration through a systematic literature review and (2) contextualizing them in the context of research ideation. We discuss the next steps to validate our scale, evaluate LLMs using the scale, and develop an auto-assessment rubric aligned with our original scale.},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  pdf={https://heal-workshop.github.io/chi2024_papers/30_towards_an_evaluation_of_llm_g.pdf}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{admoni2025globalsummary,
+  abbr={IJCAI Workshop},
+  title={Generating Global Policy Summaries for Reinforcement Learning Agents Using  Large Language Models},
+  author={Admoni, Sahar and Amir, Ofra},
+  booktitle={Proceedings of the IJCAI Workshop on Explainable Artificial Intelligence},
+  year={2024},
+  abstract={In this work, we present an initial exploration of generating global policy summaries for reinforcement learning (RL) agents using Large Language Models (LLMs). Prior work on explainable RL developed policy summary methods that aim to describe the behavior of agents to users by demonstrating their behavior in a subset of world-states. However, users can only watch a limited number of demonstrations, limiting their ability to understand the policy. Given the major advancements in LLMs and their ability to capture world knowledge, we hypothesize that they can be used to identify patterns of behavior based on a large dataset of agent interactions. We present a pipeline for generating natural language summaries and show a case study in a grid environment demonstrating the potential of the proposed approach.},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  pdf={https://drive.google.com/file/d/1XF3jb4B_6V7FCanZrpO-bWl4ZzRdzVIR/view?usp=sharing},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@article{admoni2025consistentency,
+  abbr={Preprint},
+  title={Towards Large Language Models with Self-Consistent Natural Language Explanations},
+  author={Admoni, Sahar and Amir, Ofra and Hallak, Assaf and Ziser, Yftah},
+  journal={arXiv preprint arXiv:2506.07523},
+  year={2025},
+  abstract={Large language models (LLMs) seem to offer an easy path to interpretability: just ask them to explain their answers. Yet the features driving an answer often differ from those emphasized in its explanation, meaning post-hoc rationales can misrepresent what actually shaped the model's output. We quantify this gap by comparing the feature-importance distributions of answers and their explanations. Prior analyses reveal such discrepancies, but large-scale study has been limited by the high computational cost of attribution methods. To address this, we introduce the Post-hoc Self-Consistency Bank (PSCB), a large-scale benchmark linking model decisions with diverse explanations and attribution vectors across datasets, methods, and model families. Using PSCB, we find that Spearman rank correlation provides a more reliable signal of alignment than cosine similarity. Building on this insight, we apply Direct Preference Optimization (DPO) to attribution-based preference data, improving alignment without degrading task accuracy. Our results pave the way toward scalable and faithful alignment between LLM decisions and their natural language explanations.},
+  bibtex_show={true},
   selected={true},
-  inspirehep_id = {3255}
+  preview={constllm_wide_1.jpg},
+  pdf={https://arxiv.org/pdf/2506.07523}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@article{admoni2025sysllm,
+  abbr={Preprint},
+  title={From Actions to Words: Towards Abstractive-Textual Policy Summarization in RL},
+  author={Admoni, Sahar and Hallak, Assaf and Ziser, Yftah and Ben-Porat, Omer and Amir, Ofra},
+  journal={arXiv preprint arXiv:2503.10509},
+  year={2025},
+  abstract={Explaining reinforcement learning agents remains challenging, as policies emerge from complex reward structures and neural representations that are difficult for humans to interpret. Existing approaches rely on curated demonstrations that reveal local behaviors but offer limited insight into global strategy, leaving users to infer intent from raw observations. 
+  We propose \emph{SySLLM} (Synthesized Summary using Large Language Models), a framework that reformulates policy interpretation as a language-generation problem. Rather than relying on visual demonstrations, SySLLM translates spatiotemporal trajectories (an input modality outside the natural domain of LLMs) into structured text and prompts the model to produce coherent natural-language summaries that describe the agent's goals, exploration style, and decision patterns. 
+  SySLLM scales to long-horizon and semantically rich environments without task-specific fine-tuning, leveraging the world knowledge and compositional reasoning of LLMs to capture latent behavioral structure across diverse agents. Expert evaluations show that SySLLM summaries align closely with human analyses of policy behavior, and in a large-scale user study, 75.5\% of participants preferred these textual summaries over state-of-the-art demonstration-based explanations. 
+  Together, these results establish abstractive-textual summarization as a new, scalable paradigm for interpreting complex RL behaviors through language.},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  selected={true},
+  preview={sysllm_fig.jpg},
+  pdf={https://arxiv.org/pdf/2503.10509},
+  code={https://github.com/saharad1/SySLLM}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
+

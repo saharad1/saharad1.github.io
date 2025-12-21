@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Sahar Admoni
     - name: Date of Birth
-      value: 14th March 1879
+      value: 17th October 1996
     - name: Languages
-      value: English, German
+      value: English, Hebrew
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD Candidate
+      institution: Technion - Israel Institute of Technology, Haifa, Israel
+      year: 2024 - present
       description:
         - Description 1.
         - Description 2.
@@ -21,12 +21,17 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: MSc. as part of a direct PhD track
+      institution: Technion - Israel Institute of Technology, Haifa, Israel
+      year: 2022 - 2024
       description:
         - Description 1.
         - Description 2.
+    - title: BSc. in Data Science & Engineering
+      institution: Technion - Israel Institute of Technology, Haifa, Israel
+      year: 2019 - 2022
+      description:
+        - Description 1.
 
 - title: Experience
   type: time_table
