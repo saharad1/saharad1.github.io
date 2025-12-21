@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:sparkles: Our paper "Towards Large Language Models with Self-Consistent Natural Language Explanations" has been accepted to AAMAS 2026!
+:sparkles: Our paper "Towards Large Language Models with Self-Consistent Natural Language Explanations" has been accepted to AAMAS 2026!!
