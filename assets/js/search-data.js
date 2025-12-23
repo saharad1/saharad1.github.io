@@ -35,7 +35,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-sparkles-our-paper-towards-large-language-models-with-self-consistent-natural-language-explanations-has-been-accepted-to-aamas-2026",
+            },},{id: "news-presented-our-paper-aligning-what-llms-do-and-say-towards-self-consistent-explanations-iscol-2026",
+          title: 'Presented our paper “Aligning What LLMs Do and Say: Towards Self-Consistent Explanations” @...',
+          description: "",
+          section: "News",},{id: "news-sparkles-our-paper-towards-large-language-models-with-self-consistent-natural-language-explanations-has-been-accepted-to-aamas-2026",
           title: ':sparkles: Our paper “Towards Large Language Models with Self-Consistent Natural Language Explanations” has...',
           description: "",
           section: "News",},{id: "projects-project-1",
