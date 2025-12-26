@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey there! I'm Sahar, currently a PhD Candidate at the [Technion – Israel Institute of Technology](https://www.technion.ac.il) in collaboration with [Nvidia Research](https://research.nvidia.com/labs/par/) under the supervision of Prof. Ofra Amir and Dr. Assaf Hallak. My research centers on the intersection of Reinforcement Learning (RL) and Large Language Models (LLMs), with a focus on how these fields inform each other and enable more capable and transparent decision making systems.
+Hey there! I'm Sahar, currently a PhD Candidate at the [Technion – Israel Institute of Technology](https://www.technion.ac.il/en) in collaboration with [Nvidia Research](https://research.nvidia.com/labs/par/) under the supervision of Prof. Ofra Amir and Dr. Assaf Hallak. My research centers on the intersection of Reinforcement Learning (RL) and Large Language Models (LLMs), with a focus on how these fields inform each other and enable more capable and transparent decision making systems.
 
 I study how LLMs can interpret and explain RL agents and how they can strengthen policy learning and planning. I also explore how RL methods can support more interpretable language models and more reliable finetuning strategies. I aim to bridge theoretical insights with practical algorithms that contribute to progress in both RL and NLP.
 
