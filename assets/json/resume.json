@@ -25,7 +25,7 @@
     {
       "institution": "Technion - Israel Institute of Technology",
       "location": "Haifa, Israel",
-      "url": "https://www.technion.ac.il/",
+      "url": "https://www.technion.ac.il/en/",
       "studyType": "PhD Candidate",
       "startDate": "2024",
       "endDate": "Present",
@@ -34,7 +34,7 @@
     {
       "institution": "Technion - Israel Institute of Technology",
       "location": "Haifa, Israel",
-      "url": "https://www.technion.ac.il/",
+      "url": "https://www.technion.ac.il/en/",
       "area": "The faculty of Data & Decision Sciences",
       "studyType": "MSc. as part of a direct PhD track",
       "startDate": "2023",
@@ -43,7 +43,7 @@
     {
       "institution": "Technion - Israel Institute of Technology",
       "location": "Haifa, Israel",
-      "url": "https://www.technion.ac.il/",
+      "url": "https://www.technion.ac.il/en/",
       "area": "The faculty of Data & Decision Sciences",
       "studyType": "BSc. Data Science & Engineering",
       "startDate": "2019",
@@ -94,7 +94,7 @@
       "organization": "URJ 6 Points Sci-Tech",
       "location": "Boston, MA, USA",
       "position": "STEM Education Instructor",
-      "url": "https://www.technion.ac.il/en/ai-society/",
+      "url": "https://6pointsscitech.org",
       "startDate": "2018",
       "endDate": "2018",
       "summary": "Designed and led hands-on STEM activities for youth participants, fostering problem-solving and computational thinking skills."
